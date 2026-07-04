@@ -26,3 +26,8 @@ INFO 2026-07-04 22:58:28,232 basehttp "GET /api/openapi.json HTTP/1.1" 200 8368
 INFO 2026-07-04 22:58:28,234 basehttp "GET /static/ninja/favicon.png HTTP/1.1" 304 0
 INFO 2026-07-04 22:58:35,637 api User created: string id=1
 INFO 2026-07-04 22:58:35,639 basehttp "POST /api/users/register HTTP/1.1" 200 269
+INFO 2026-07-04 23:11:38,849 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 23:11:59,332 api User created: testuser id=1
+WARNING 2026-07-04 23:11:59,695 log Bad Request: /api/users/register
+INFO 2026-07-04 23:12:00,366 api Login success: testuser id=3
+WARNING 2026-07-04 23:12:00,707 log Unauthorized: /api/users/login
