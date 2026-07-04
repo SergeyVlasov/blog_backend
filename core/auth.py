@@ -1,4 +1,10 @@
-from ninja_jwt.authentication import JWTAuth
+from ninja.security import HttpBearer
+from apps.users.models import User
 
-# Основной authentication backend для всего API
-auth = JWTAuth()
+class TokenAuth(HttpBearer):
+    def authenticate(self, request, token):
+        try:
+            return User.objects.get(token=token)
+        except User.DoesNotExist:
+            return None
+auth = TokenAuth()

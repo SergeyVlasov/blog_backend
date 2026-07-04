@@ -1,20 +1,21 @@
-from django.conf import settings
 from django.db import models
+
+from apps.posts.models import Post
+from apps.users.models import User
 
 
 class Comment(models.Model):
     text = models.TextField()
 
     author = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.CASCADE,
-        related_name="comments",
+        User,
+        on_delete=models.CASCADE
     )
 
     post = models.ForeignKey(
-        "posts.Post",
+        Post,
         on_delete=models.CASCADE,
-        related_name="comments",
+        related_name="comments"
     )
 
     created_at = models.DateTimeField(auto_now_add=True)
