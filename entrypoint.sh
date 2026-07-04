@@ -1,9 +1,17 @@
 #!/bin/sh
 echo "Waiting for DB..."
-while ! nc -z db 5432; do
-  sleep 1
-done
-echo "DB is up"
+python manage.py shell -c "
+from django.db import connections
+import time
+while True:
+    try:
+        connections['default'].cursor()
+        break
+    except Exception:
+        print('DB not ready...')
+        time.sleep(1)
+"
+echo "DB is ready"
 echo "Applying migrations..."
 python manage.py migrate --noinput
 echo "Starting server..."

@@ -1,9 +1,6 @@
 from django.db import models
-
 from apps.posts.models import Post
 from apps.users.models import User
-
-
 class Comment(models.Model):
     text = models.TextField()
 
