@@ -1,0 +1,28 @@
+INFO 2026-07-04 22:40:14,315 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:41:30,141 autoreload /app/apps/users/api.py changed, reloading.
+INFO 2026-07-04 22:41:31,662 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:42:03,758 autoreload /app/apps/users/api.py changed, reloading.
+INFO 2026-07-04 22:42:05,349 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:42:32,352 autoreload /app/apps/users/api.py changed, reloading.
+INFO 2026-07-04 22:42:33,886 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:43:03,877 autoreload /app/apps/users/api.py changed, reloading.
+INFO 2026-07-04 22:43:05,406 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:45:28,238 autoreload /app/apps/posts/api.py changed, reloading.
+INFO 2026-07-04 22:45:29,647 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:45:48,341 autoreload /app/apps/posts/api.py changed, reloading.
+INFO 2026-07-04 22:45:49,859 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:48:38,207 autoreload /app/apps/comments/api.py changed, reloading.
+INFO 2026-07-04 22:48:39,635 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:53:53,110 autoreload /app/apps/comments/api.py changed, reloading.
+INFO 2026-07-04 22:53:54,568 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:54:55,114 autoreload /app/apps/posts/api.py changed, reloading.
+INFO 2026-07-04 22:54:56,711 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:58:21,811 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 22:58:27,650 basehttp "GET /api/docs HTTP/1.1" 200 602
+INFO 2026-07-04 22:58:27,705 basehttp "GET /static/ninja/swagger-ui.css HTTP/1.1" 304 0
+INFO 2026-07-04 22:58:27,709 basehttp "GET /static/ninja/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2026-07-04 22:58:27,711 basehttp "GET /static/ninja/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2026-07-04 22:58:28,232 basehttp "GET /api/openapi.json HTTP/1.1" 200 8368
+INFO 2026-07-04 22:58:28,234 basehttp "GET /static/ninja/favicon.png HTTP/1.1" 304 0
+INFO 2026-07-04 22:58:35,637 api User created: string id=1
+INFO 2026-07-04 22:58:35,639 basehttp "POST /api/users/register HTTP/1.1" 200 269
