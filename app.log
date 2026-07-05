@@ -31,3 +31,10 @@ INFO 2026-07-04 23:11:59,332 api User created: testuser id=1
 WARNING 2026-07-04 23:11:59,695 log Bad Request: /api/users/register
 INFO 2026-07-04 23:12:00,366 api Login success: testuser id=3
 WARNING 2026-07-04 23:12:00,707 log Unauthorized: /api/users/login
+INFO 2026-07-05 07:57:20,970 autoreload Watching for file changes with StatReloader
+INFO 2026-07-05 07:57:33,194 basehttp "GET /api/docs HTTP/1.1" 200 602
+INFO 2026-07-05 07:57:33,278 basehttp "GET /static/ninja/swagger-ui-init.js HTTP/1.1" 200 1308
+INFO 2026-07-05 07:57:33,283 basehttp "GET /static/ninja/swagger-ui.css HTTP/1.1" 200 151211
+INFO 2026-07-05 07:57:33,309 basehttp "GET /static/ninja/swagger-ui-bundle.js HTTP/1.1" 200 1385226
+INFO 2026-07-05 07:57:33,861 basehttp "GET /static/ninja/favicon.png HTTP/1.1" 200 6234
+INFO 2026-07-05 07:57:33,867 basehttp "GET /api/openapi.json HTTP/1.1" 200 8789
